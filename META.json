@@ -1,0 +1,54 @@
+{
+   "abstract" : "The great new App::multiwhich!",
+   "author" : [
+      "A. Sinan Unur <nanis@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142060",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "App-multiwhich",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::Exception" : "0",
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "File::Basename" : "0",
+            "File::Spec::Functions" : "3.47",
+            "Perl::OSType" : "1.006",
+            "YAML::XS" : "0.48",
+            "namespace::sweep" : "0.006",
+            "perl" : "5.006"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/nanis/App-multiwhich.git",
+         "web" : "https://github.com/nanis/App-multiwhich"
+      }
+   },
+   "version" : "0.001"
+}
